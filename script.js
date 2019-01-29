@@ -122,6 +122,7 @@ $(".result1").click(function() {
     $(".top").text("You discovered a new alien!  The alien stunned you.  You're stuck their forever.");
     $(".imgone").attr("src", "https://i.imgur.com/ryrJ4cn.gif");
     $(".result1").toggle();
+    $(".restart").toggle();
 });
 
 // Results2
@@ -131,6 +132,7 @@ $(".result2").click(function() {
     $(".top").text("Are you stupid? You thought you were hot?  Now you are...you're dead.");
     $(".imgone").attr("src", "https://media1.tenor.com/images/778fdbd498a4a82f690f87a78e9b4088/tenor.gif?itemid=5662168");
     $(".result2").toggle();
+    $(".restart").toggle();
 });
 
 // Results3
@@ -140,5 +142,10 @@ $(".result3").click(function() {
     $(".top").text("Smart! But you plunged into the ocean with no parachute and died at impact.");
     $(".imgone").attr("src", "https://thumbs.gfycat.com/WeeklyAromaticDoctorfish-max-1mb.gif");
     $(".result3").toggle();
+    $(".restart").toggle();
 });
+$(".restart").click(function() {
+    window.location = "https://povrty.github.io/Treasure-Hunt/".reload();
+});
+
 
