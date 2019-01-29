@@ -21,6 +21,14 @@ body {
 }
 
 img {
-    width: 500px;
+    width: 450px;
     padding-bottom: 25px;
+}
+
+.space {
+    height: 1000px;
+}
+
+.text {
+    padding-top: 900px;
 }
