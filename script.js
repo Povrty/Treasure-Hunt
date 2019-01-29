@@ -147,5 +147,3 @@ $(".result3").click(function() {
 $(".restart").click(function() {
     window.location.reload();
 });
-
-
